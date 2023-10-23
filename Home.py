@@ -8,7 +8,7 @@ import pandas as pd
 
 #----------------------Connect MongoDB-----------------------------
 
-client =  pymongo.MongoClient("mongodb://karthik:rootroot@ac-6xfdclc-shard-00-00.mbwhehu.mongodb.net:27017,ac-6xfdclc-shard-00-01.mbwhehu.mongodb.net:27017,ac-6xfdclc-shard-00-02.mbwhehu.mongodb.net:27017/?ssl=true&replicaSet=atlas-q241bj-shard-0&authSource=admin&retryWrites=true&w=majority",tlsCAFile=certifi.where())
+client =  pymongo.MongoClient("mongodb://karthik:karthik@ac-6xfdclc-shard-00-00.mbwhehu.mongodb.net:27017,ac-6xfdclc-shard-00-01.mbwhehu.mongodb.net:27017,ac-6xfdclc-shard-00-02.mbwhehu.mongodb.net:27017/?ssl=true&replicaSet=atlas-q241bj-shard-0&authSource=admin&retryWrites=true&w=majority",tlsCAFile=certifi.where())
 Mongodb=client.youtube1
 
 #----------------------Connect sqlite3------------------------------
@@ -19,9 +19,9 @@ cursor = connection.cursor()
 
 #---------------------Youtube API--------------------------
 
-api_key = 'AIzaSyAU2IHMNwbqvMIv9kt7oYQCdDhdTOQos60'
+api_key = 'AIzaSyAU2IHMNwbqvMIv9kt7oYQCdDhdTOQos90'
 youtube = build('youtube','v3',developerKey=api_key)
-#channel_id = 'UC06rPr43Hz79M_jB_0OdkTQ'
+#channel_id = 'UC06rPr43Hz79M_jB_0OdlTQ'
 #UCsc5d398QFJY5V1DlVjXbiw
 
 
